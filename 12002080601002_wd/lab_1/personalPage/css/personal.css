@@ -45,3 +45,8 @@ head h1 {
 a:hover {
     color: aquamarine;
 }
+
+p span{
+    color: green;
+    font-weight: bold;
+}

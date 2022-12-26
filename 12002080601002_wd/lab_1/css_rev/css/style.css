@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.box2 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.box3 {
+    background-color: antiquewhite;
+}

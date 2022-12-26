@@ -1,0 +1,29 @@
+Part 1: A CSS'd Personal Page (12 points)
+
+Create a simple personal web page, personal.html, that contains at least the following items:
+
+1. Your name at the top of the page as an <h1> heading.
+2. A few paragraphs about yourself. Be sure to include the word Eastern at least twice in your paragraphs—we’ll need that for the next problem in this assignment.
+3. A list of hobbies or interest displayed as an HTML unordered list.
+4. Link at least two of your hobbies or interests to websites related to those interests.
+Here’s roughly what the webpage should look like:
+
+https://emunix.emich.edu/~mevett/E-Commerce/assign1/personalPageNoCSS.jpg
+
+Stick to semantic HTML only. (Semantic HTML are those tags that do not specify appearance directly, such as the <i> and <b> tags.)
+
+Part-2 
+Now add a CSS file called personal.css and reference it in your .html file.
+
+Make the following changes and additions:
+
+Add a photograph of yourself and float it to the left side of the webpage using CSS. Add box information (margin, padding, and/or border) to make it look nice on the webpage.
+Change the font used throughout the document to sans-serif. To do this you can set the font for the body element, which will be inherited by all elements contained within the body (which is everything displayed on the webpage). Alternatively, you can create a style rule with the special universal selector which is represented by the asterisk. The universal selector matches any element, however it’s not very efficient and will slow rendering of your page down a bit. For example, the following rule will turn everything on the webpage to red:
+  * {
+  color: red;
+  }
+Center the heading with your name in it.
+Setup your links to use the “:hover” pseudo-class (use a:hover so that only the links are effected). How the link changes when the mouse moves on top of it is up to you, but if you’re short on ideas, just have the link change colors.
+Add <span> tags and setup your style sheet so that every time the word “Eastern” appears, it is in green and is in bold.
+
+https://emunix.emich.edu/~mevett/E-Commerce/assign1/personalPageWithCSS.jpg

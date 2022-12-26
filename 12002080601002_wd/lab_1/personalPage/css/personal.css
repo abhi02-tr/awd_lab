@@ -1,0 +1,47 @@
+* {
+    font-family: 'san-serif';
+    
+}
+
+.img {
+    float: left;
+    /* padding: 5px; */
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+.details > p {
+    padding: 5px;
+    margin: 20px;
+    font-size: 1.1rem;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+
+.hobbies {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+head h1 {
+    font-size: 33px;
+}
+
+.hobbies > p {
+    padding: 0;
+    margin: 0;
+}
+
+.hobbies ul li {
+    margin-left: 0;
+}
+
+a:hover {
+    color: aquamarine;
+}
